@@ -28,6 +28,12 @@
 
 ## Project setup
 
+### Clone the another related project
+```bash
+$ git clone https://github.com/KrOxYs/dashboard-server-event-service.git
+```
+
+#### install both projects
 ```bash
 $ npm install
 ```
@@ -56,6 +62,16 @@ $ npm run test:e2e
 
 # test coverage
 $ npm run test:cov
+```
+
+### Start Rabbitmq 
+```bash
+$ docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.13-management
+```
+
+### MongoDB Port 
+```bash
+$ mongodb://localhost:27017
 ```
 
 ## Resources
