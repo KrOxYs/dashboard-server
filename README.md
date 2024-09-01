@@ -33,7 +33,7 @@
 $ git clone https://github.com/KrOxYs/dashboard-server-event-service.git
 ```
 
-#### install both projects
+#### install these two projects
 ```bash
 $ npm install
 ```
