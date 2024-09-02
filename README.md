@@ -30,6 +30,7 @@
 
 ### Clone the another related project
 ```bash
+$ git clone (this repo)
 $ git clone https://github.com/KrOxYs/dashboard-server-event-service.git
 ```
 
